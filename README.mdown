@@ -1,0 +1,30 @@
+## Plone SublimeText Snippets
+
+#### Installation on Sublime Text 2
+
+###### Mac/Linux Instructions
+
+1. CD into Sublime Text packages folder
+
+`cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages`
+
+or
+
+`cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages`
+
+
+2. Clone repository into packages folder
+
+`git clone https://github.com/cekk/plone-sublime-snippets.git`
+
+###### Windows Instructions
+
+`cd "%AppData%\Sublime Text 2\Packages\User"`
+`git clone https://github.com/cekk/plone-sublime-snippets.git`
+
+
+### Available Components
+
+Component        | Usage
+:--------------- | :-----------:
+View             | browserview + tab

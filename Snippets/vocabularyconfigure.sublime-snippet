@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+  <utility
+    provides="zope.schema.interfaces.IVocabularyFactory"
+    component="{1}"
+    name="{2}"
+    />
+]]></content>
+    <tabTrigger>vocabulary</tabTrigger>
+    <description>New vocabulary registration in zcml</description>
+</snippet>

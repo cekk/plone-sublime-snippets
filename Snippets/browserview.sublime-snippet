@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+from Products.Five import BrowserView
+
+
+class ${1:myClassView}(BrowserView):
+    """
+    """
+
+]]></content>
+    <tabTrigger>browserview</tabTrigger>
+    <scope>source.python</scope>
+    <description>New browser view class</description>
+</snippet>

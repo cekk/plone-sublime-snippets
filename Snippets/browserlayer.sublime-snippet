@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<layers>
+    <layer name="${1:packageName}"
+           interface="${1:packageName}.interfaces.${2:interfaceName}Layer" />
+</layers>
+]]></content>
+    <tabTrigger>browserlayer</tabTrigger>
+    <!-- i don't set a scope, because i usually create a new file, fill it with initial text and then save it -->
+    <!-- <scope>text.xml</scope> -->
+    <description>New browserlayer</description>
+</snippet>

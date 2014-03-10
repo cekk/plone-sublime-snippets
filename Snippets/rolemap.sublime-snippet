@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <permission name="${1:packageName}: ${2:permissionName}"
+                acquire="False">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+    </permission>
+  </permissions>
+</rolemap>
+]]></content>
+    <tabTrigger>rolemap</tabTrigger>
+    <!-- i don't set a scope, because i usually create a new file, fill it with initial text and then save it -->
+    <!-- <scope>text.xml</scope> -->
+    <description>New rolemap configuration</description>
+</snippet>

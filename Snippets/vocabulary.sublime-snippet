@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+from zope.interface import implements
+from zope.schema.interfaces import IVocabularyFactory
+from zope.schema.vocabulary import SimpleVocabulary
+from zope.schema.vocabulary import SimpleTerm
+
+
+class {1:vocabularyName}Vocabulary(object):
+    """
+    {2}
+    """
+    implements(IVocabularyFactory)
+
+    def __call__(self, context):
+        """
+        """
+        return SimpleVocabulary.fromItems((
+                      ("key", "value"),
+                      ("key", "value")))
+
+{1:vocabularyName}Factory = {1:vocabularyName}()
+]]></content>
+    <tabTrigger>vocabulary</tabTrigger>
+    <scope>source.python</scope>
+    <description>New schema vocabulary</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0"?>
+<object name="portal_javascripts" meta_type="JavaScripts Registry">
+
+ <javascript cacheable="True"
+             compression="safe"
+             cookable="True"
+             enabled="True"
+             id="++resource++${1:javascriptName}.js"
+             inline="False"/>
+
+</object>
+]]></content>
+    <tabTrigger>jsregistry</tabTrigger>
+    <!-- i don't set a scope, because i usually create a new file, fill it with initial text and then save it -->
+    <!-- <scope>text.xml</scope> -->
+    <description>New javascriptregistry</description>
+</snippet>
