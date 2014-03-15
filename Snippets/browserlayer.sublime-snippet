@@ -2,7 +2,7 @@
     <content><![CDATA[
 <layers>
     <layer name="${1:packageName}"
-           interface="${1:packageName}.interfaces.${2:interfaceName}Layer" />
+           interface="..interfaces.${2:interfaceName}Layer" />
 </layers>
 ]]></content>
     <tabTrigger>browserlayer</tabTrigger>
