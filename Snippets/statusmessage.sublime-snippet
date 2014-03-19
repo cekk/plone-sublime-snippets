@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+from Products.statusmessages.interfaces import IStatusMessage
+
+messages = IStatusMessage(self.request)
+
+messages.add(u"message", type=u"info")
+]]></content>
+    <tabTrigger>statusmessage</tabTrigger>
+    <scope>source.python</scope>
+    <description>use status message</description>
+</snippet>
