@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[
+<?xml version="1.0"?>
 <registry>
     <records interface="${1:packageName}.interfaces.${2:interfaceName}" />
 </registry>
