@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+entry_points="""
+      # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
+      """,
+]]></content>
+    <tabTrigger>autoinclude</tabTrigger>
+    <scope>source.python</scope>
+    <description>insert autoinclude in setup.py</description>
+</snippet>
